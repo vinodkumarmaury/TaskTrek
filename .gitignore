@@ -1,0 +1,44 @@
+# Node
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Builds
+apps/**/.next
+apps/**/dist
+
+# Environment files with secrets
+.env
+.env.local
+.env.production
+.env.development
+apps/**/.env
+apps/**/.env.local
+apps/**/.env.production
+apps/**/.env.development
+
+# But keep environment examples and public configs
+!.env.example
+!.env.public
+
+# MacOS
+.DS_Store
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Testing
+coverage/
+.nyc_output/
+
+# Temporary files
+*.tmp
+*.temp
