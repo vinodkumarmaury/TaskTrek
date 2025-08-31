@@ -29,7 +29,7 @@ import documentsRouter from './routes/documents';
 
 const app = express();
 
-app.use(cors({ origin: process.env.WEB_ORIGIN || 'http://localhost:3000', credentials: true }));
+app.use(cors({ origin: process.env.WEB_ORIGIN || 'https://task-trek-web-sigma.vercel.app/', credentials: true }));
 app.use(express.json());
 app.use(cookieParser());
 app.use(httpLogger);
